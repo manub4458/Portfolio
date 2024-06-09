@@ -26,10 +26,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.jpeg";
-
+import logo2 from "./company/logo2.jpeg"
 import carrent from "./carrent.jpeg";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import layerz from './company/layerz.jpg'
+import desii from './company/desii.jpg'
 
 export {
   logo,
@@ -57,7 +59,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  desii,
+  logo2,
   carrent,
   jobit,
+  layerz,
   tripguide,
 };

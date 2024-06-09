@@ -7,6 +7,7 @@ import {
   typescript,
   html,
   css,
+  desii,
   reactjs,
   redux,
   tailwind,
@@ -16,8 +17,10 @@ import {
   figma,
   docker,
   meta,
+  layerz,
   starbucks,
   tesla,
+  logo2,
   shopify,
   carrent,
   jobit,
@@ -110,8 +113,21 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "MERN stack Developer",
     company_name: "Freelancer",
+    icon: logo2,
+    iconBg: "#383E56",
+    date: "Jan 2024 - Present",
+    points: [
+      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "MERN stack Developer",
+    company_name: "Social hikers",
     icon: starbucks,
     iconBg: "#383E56",
     date: "March 2023 - September 2023",
@@ -192,9 +208,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Cybersecurity Unveiled",
+    name: "Layerzz-An Eccomerce store",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Layerzz is an innovative e-commerce platform specializing in fashion-forward clothing for diverse lifestyles. This project showcases the development of a dynamic and user-centric online store, from conceptualization to launch, highlighting the integration of modern design, technology, and sustainability principles.",
     tags: [
       {
         name: "next",
@@ -209,13 +225,13 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://www.datainspect.io/",
+    image: layerz,
+    source_code_link: "https://layerzz.com/",
   },
   {
-    name: "Spotify Clone",
+    name: "DesiiGabru- An Eccomerce store",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "DesiiGabru is a vibrant e-commerce platform specializing in premium hair and skin care products tailored for diverse needs. This project highlights the creation and launch of an innovative online store that combines user-friendly design, robust functionality, and a focus on quality and customer satisfaction",
     tags: [
       {
         name: "react",
@@ -226,17 +242,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://spotify-clone-theta-sandy.vercel.app/",
+    image: desii,
+    source_code_link: "https://desiigabru.com/",
   },
   {
     name: "Travelling",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Paradise Uttarakhand is a comprehensive travel website dedicated to showcasing the natural beauty, cultural heritage, and adventure opportunities of Uttarakhand, India. This project emphasizes creating an immersive and informative platform that helps travelers plan their perfect trip to this enchanting region",
     tags: [
       {
         name: "nextjs",
